@@ -242,6 +242,18 @@ proc/process_ghost_teleport_locs()
 	mob_activate(var/mob/living/L)
 		push_mob_back(L, push_dir)
 
+
+/area/shuttle/mining
+	name = "\improper Science Shuttle"
+
+/area/shuttle/science/station
+	icon_state = "shuttle2"
+	destination = /area/shuttle/science/outpost
+
+/area/shuttle/science/outpost
+	icon_state = "shuttle"
+	destination = /area/shuttle/science/station
+
 /area/shuttle/mining
 	name = "\improper Mining Shuttle"
 

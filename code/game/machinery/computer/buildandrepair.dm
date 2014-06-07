@@ -199,6 +199,9 @@
 	name = "circuit board (Shuttle)"
 	build_path = /obj/machinery/computer/shuttle
 	id = "1"
+/obj/item/weapon/circuitboard/science_shuttle
+	name = "circuit Board (Science Shuttle)"
+	build_path = /obj/machinery/computer/shuttle/Science
 /obj/item/weapon/circuitboard/labor_shuttle
 	name = "circuit Board (Labor Shuttle)"
 	build_path = /obj/machinery/computer/shuttle/labor
