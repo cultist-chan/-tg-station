@@ -1,13 +1,13 @@
 /obj/machinery/computer/pod
-	name = "mass driver launch control"
-	desc = "A combined blastdoor and mass driver control unit."
+	name = "Train Console"
+	desc = "A unit to get in and out of trains."
 	icon_state = "computer_generic"
 	var/obj/machinery/mass_driver/connected = null
-	var/title = "Mass Driver Controls"
+	var/title = "Train door controls"
 	var/id = 1
 	var/timing = 0
 	var/time = 30
-	var/range = 4
+	var/range = 20
 
 
 /obj/machinery/computer/pod/initialize()
@@ -29,13 +29,6 @@
 		if(M.id == id)
 			M.open()
 
-	sleep(20)
-	for(var/obj/machinery/mass_driver/M in range(range, src))
-		if(M.id == id)
-			M.power = connected.power
-			M.drive()
-
-	sleep(50)
 	for(var/obj/machinery/door/poddoor/M in range(range, src))
 		if(M.id == id)
 			M.close()
