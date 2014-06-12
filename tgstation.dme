@@ -431,6 +431,7 @@
 #include "code\game\machinery\computer\medical.dm"
 #include "code\game\machinery\computer\message.dm"
 #include "code\game\machinery\computer\Operating.dm"
+#include "code\game\machinery\computer\pod.dm"
 #include "code\game\machinery\computer\power.dm"
 #include "code\game\machinery\computer\prisoner.dm"
 #include "code\game\machinery\computer\robot.dm"
@@ -1277,5 +1278,4 @@
 #include "interface\interface.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
-#include "C:\Users\Michael\Desktop\pod.dm"
 // END_INCLUDE
