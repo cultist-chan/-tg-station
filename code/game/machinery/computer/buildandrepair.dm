@@ -202,6 +202,10 @@
 /obj/item/weapon/circuitboard/train_shuttle
 	name = "circuit Board (Train Controls)"
 	build_path = /obj/machinery/computer/shuttle/train
+/obj/machinery/computer/pod
+	name = "circuit Board (Labor Shuttle)"
+	build_path = /obj/machinery/computer/shuttle/labor
+
 /obj/item/weapon/circuitboard/labor_shuttle
 	name = "circuit Board (Labor Shuttle)"
 	build_path = /obj/machinery/computer/shuttle/labor
