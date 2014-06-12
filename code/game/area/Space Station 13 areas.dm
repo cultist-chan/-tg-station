@@ -125,7 +125,11 @@ proc/process_ghost_teleport_locs()
 	power_environ = 0
 	ambientsounds = list('sound/ambience/ambispace.ogg','sound/ambience/title2.ogg',)
 
-
+/area/trainstation
+	name= "\improper Train Station"
+	icon_state = "tstation"
+	requires_power = 0
+	has_gravity = 1
 
 //These are shuttle areas, they must contain two areas in a subgroup if you want to move a shuttle from one
 //place to another. Look at escape shuttle for example.
@@ -241,6 +245,17 @@ proc/process_ghost_teleport_locs()
 
 	mob_activate(var/mob/living/L)
 		push_mob_back(L, push_dir)
+
+/area/shuttle/train
+	name ="\improper Train"
+
+/area/shuttle/train/mining
+	icon_state ="mtrain"
+	destination = /area/shuttle/train/outpost
+
+/area/shuttle/train/outpost
+	icon_state ="mtraina"
+	destination= /area/shuttle/train/mining
 
 /area/shuttle/mining
 	name = "\improper Mining Shuttle"
