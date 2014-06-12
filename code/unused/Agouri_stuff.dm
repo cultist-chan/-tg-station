@@ -1276,7 +1276,7 @@ var/list/plating_icons = list("plating","platingdmg1","platingdmg2","platingdmg3
 		name = "plating"
 
 /turf/simulated/floor/grid
-	icon = 'icons/turf/floors.dmi'
+	icon = 'icons/turf/ .dmi'
 	icon_state = "circuit"
 
 /turf/simulated/floor/New()
