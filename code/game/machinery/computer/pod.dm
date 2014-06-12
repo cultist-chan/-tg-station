@@ -1,4 +1,4 @@
-/obj/machinery/computer/pod
+/obj/machinery/computer/pod //this is based on the pod. Need to change this in the future.
 	name = "Train Console"
 	desc = "A unit to get in and out of trains."
 	icon_state = "computer_generic"
